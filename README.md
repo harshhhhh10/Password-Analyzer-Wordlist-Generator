@@ -152,11 +152,11 @@ Or simply:
     Bash
     python main.py
 
-The GUI has two tabs:
+### The GUI has two tabs:
 
-### Tab 1: Password Analyser — Enter a password, click Analyse, see the full strength report with score bar, stats, common password check, and suggestions.
-
-### Tab 2: Wordlist Generator — Enter personal tokens (names, pets, DOB, extras), configure mutation options, generate the wordlist, preview results, and export to .txt.
+     Tab 1: Password Analyser — Enter a password, click Analyse, see the full strength report with score bar, stats, common password check, and suggestions.
+    
+     Tab 2: Wordlist Generator — Enter personal tokens (names, pets, DOB, extras), configure mutation options, generate the wordlist, preview results, and export to .txt.
 
 ### CLI Mode
 ### Analyse a Password
