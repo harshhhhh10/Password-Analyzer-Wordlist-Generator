@@ -594,7 +594,8 @@ If tkinter is not available:
 ### License
     This project is licensed under the MIT License. See LICENSE for details.
 
-### Author
-    HARSH SONI
+## Author
+
+    **Harsh Soni**
     
-    GitHub: @harshhhhh10
+    - GitHub: [@harshhhhh10](https://github.com/harshhhhh10)
