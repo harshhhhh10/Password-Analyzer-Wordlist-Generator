@@ -123,23 +123,25 @@ Built as a cybersecurity educational tool for understanding password security an
 
 ### 1. Clone the Repository
 
-    ```bash
-    git clone https://github.com/YOUR_USERNAME/password-strength-analyzer.git
-    cd password-strength-analyzer
+    bash
+    git clone https://github.com/harshhhhh10/Password-Analyzer-Wordlist-Generator.git
+    cd Password-Analyzer-Wordlist-Generator
 
 ### 2. Install Dependencies
 
+    bash
     pip install -r requirements.txt
     
 ### 3. Verify Installation
 
+    Bash
     python -c "from utils import calculate_entropy; print('utils OK')"
     python -c "from common_passwords import is_common_password; print('common_passwords OK')"
     python -c "from password_analyzer import analyse; print('analyzer OK')"
     python -c "from wordlist_generator import WordlistGenerator; print('generator OK')"
     python -c "from cli_app import run_cli; print('cli OK')"
     python -c "from gui_app import run_gui; print('gui OK')"
-
+    
 ### Usage
 ### GUI Mode
 Launch the graphical interface:
