@@ -596,6 +596,6 @@ If tkinter is not available:
 
 ## Author
 
-    **Harsh Soni**
+    Harsh Soni
     
     - GitHub: [@harshhhhh10](https://github.com/harshhhhh10)
