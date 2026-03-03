@@ -37,5 +37,5 @@ It also generates custom attack wordlists from personal information tokens.
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/password-strength-analyzer.git
-cd password-strength-analyzer
+git clone https://github.com/harshhhhh10/Password-Analyzer-Wordlist-Generator.git
+cd Password-Analyzer-Wordlist-Generator
