@@ -98,7 +98,7 @@ Built as a cybersecurity educational tool for understanding password security an
      │         │  Tab 1: Password Analyser │───> password_analyzer.py
      │         │  Tab 2: Wordlist Generator│───> wordlist_generator.py
      │         │                           │
-     │         └──────────────────────────┘
+     │         └───────────────────────────┘
      │
     main.py ─┤
     │
@@ -527,7 +527,7 @@ The exported .txt file contains one word per line. It is directly compatible wit
     │                                                    │
     │  Enter Password: [••••••••••••]  [Show] [Analyse]  │
     │                                                    │
-    │  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░  3/4 Strong        │
+    │  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░  3/4 Strong          │
     │                                                    │
     │  ┌──────────────────────────────────────────┐      │
     │  │  PASSWORD STRENGTH ANALYSIS REPORT       │      │
@@ -548,10 +548,10 @@ The exported .txt file contains one word per line. It is directly compatible wit
     │  DOB:          [1990-03-15              ]          │
     │  Extra:        [Yankees, pizza          ]          │
     │                                                    │
-    │  [x] Leetspeak  [x] Years  [x] Combine tokens     │
+    │  [x] Leetspeak  [x] Years  [x] Combine tokens      │
     │  Min: [4]  Max: [64]                               │
     │                                                    │
-    │  [Generate Wordlist]  [Export .txt]                 │
+    │  [Generate Wordlist]  [Export .txt]                │
     │  Status: 48,231 candidates generated               │
     └────────────────────────────────────────────────────┘
     
