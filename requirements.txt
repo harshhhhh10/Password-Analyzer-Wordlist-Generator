@@ -1,0 +1,2 @@
+zxcvbn-python>=4.4.24
+nltk>=3.8.1
