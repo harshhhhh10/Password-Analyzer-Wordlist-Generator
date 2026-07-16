@@ -1,12 +1,9 @@
-"""
-common_passwords.py
+"""common_passwords.py
 -------------------
-Top 1000+ most commonly used passwords worldwide.
-Sources: NordPass annual reports, Have I Been Pwned,
-         SecLists, RockYou breach analysis, Wikipedia.
-
-Used by the analyser to instantly flag weak passwords.
-"""
+A curated database of common and predictable passwords: well-known
+weak passwords, keyboard walks, number patterns, and everyday words
+(names, sports teams, pop culture, dates, tech brands) that people
+commonly turn into passwords."""
 
 from __future__ import annotations
 from typing import Optional, Set
