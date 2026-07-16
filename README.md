@@ -35,7 +35,7 @@ A Python-based cybersecurity tool that analyzes password strength using multiple
 
 This tool serves two purposes:
 
-1. **Password Strength Analysis** — Evaluates any password using Shannon entropy calculations, zxcvbn pattern matching, and a built-in database of 1000+ commonly breached passwords with 28,000+ mutations.
+1. **Password Strength Analysis** - Evaluates any password using Shannon entropy calculations, zxcvbn pattern matching, and a built-in database of 734 commonly used passwords with 23,895 mutations.
 
 2. **Custom Wordlist Generation** — Takes personal information (names, pet names, birthdays, favorite teams, etc.) and generates targeted wordlists using intelligent mutation strategies like leetspeak, case variations, year appending, and token combinations.
 
@@ -51,7 +51,7 @@ Built as a cybersecurity educational tool for understanding password security an
 |---------|-------------|
 | Entropy Calculation | Shannon entropy based on character pool size |
 | zxcvbn Integration | Pattern-based scoring using Dropbox's zxcvbn library |
-| Common Password Check | 1,043 base passwords + 28,000+ mutations from breach databases |
+| Common Password Check | 734 base passwords + 23,895 mutations from curated lists |
 | Pattern Detection | Identifies keyboard walks, repeated characters, common sequences |
 | Character Set Analysis | Checks for lowercase, uppercase, digits, and symbols |
 | Crack Time Estimation | Estimates time to crack via offline attack |
@@ -186,8 +186,8 @@ Output:
       
       ------------------------------------------------------------
         COMMON PASSWORD DATABASE CHECK
-           Database size : 1,043 base passwords
-           With mutations: 28,547 total entries
+           Database size : 734 base passwords
+           With mutations: 23,895 total entries
       
         +==================================================+
         |  WARNING: THIS IS A COMMON PASSWORD!             |
@@ -228,8 +228,8 @@ Output:
       
       ------------------------------------------------------------
         COMMON PASSWORD DATABASE CHECK
-           Database size : 1,043 base passwords
-           With mutations: 28,547 total entries
+           Database size : 734 base passwords
+           With mutations: 23,895 total entries
            Status        : NOT found in common password list
 
     ------------------------------------------------------------
@@ -262,8 +262,8 @@ Output:
     
     ------------------------------------------------------------
       COMMON PASSWORD DATABASE CHECK
-         Database size : 1,043 base passwords
-         With mutations: 28,547 total entries
+         Database size : 734 base passwords
+         With mutations: 23,895 total entries
          Status        : NOT found in common password list
     
     ------------------------------------------------------------
@@ -373,10 +373,11 @@ Accepts --password plus all generate options listed above.
     Unique character ratio < 40%	-1 from score
     Common patterns detected	-1 from score
 
-### Common Password Database
+## Common Password Database
+
 ### Coverage
-    1,043 base passwords sourced from real-world breach databases
-    28,000+ expanded entries including case mutations, digit suffixes, symbol suffixes, and reversed versions
+* 734 base passwords sourced from real-world weak password lists.
+* 23,895 expanded entries including case mutations, digit suffixes, symbol suffixes, and reversed versions.
     
 ### Sources
     RockYou breach database analysis
