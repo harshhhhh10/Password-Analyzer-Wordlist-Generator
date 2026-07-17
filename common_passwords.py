@@ -9,7 +9,7 @@ from __future__ import annotations
 from typing import Optional, Set
 
 
-# Top 1000+ most common passwords in the world
+# Curated set of common/predictable passwords
 COMMON_PASSWORDS: Set[str] = {
     # Rank 1-50 (Most used globally)
     "123456",
