@@ -2,7 +2,7 @@
 password_analyzer.py
 --------------------
 Analyse a password with:
-  1. Common password database (1000+ passwords + mutations)
+  1. Common password database (734 passwords + mutations)
   2. zxcvbn (dictionary / pattern matching)
   3. Custom entropy-based scorer
 
