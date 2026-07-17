@@ -82,7 +82,7 @@ Built as a cybersecurity educational tool for understanding password security an
     ├── gui_app.py # Tkinter GUI interface
     ├── password_analyzer.py # Strength analysis engine
     ├── wordlist_generator.py # Wordlist generation + mutations
-    ├── common_passwords.py # 1000+ common passwords database
+    ├── common_passwords.py # Curated common passwords database
     ├── utils.py # Shared constants and helpers
     ├── requirements.txt # Python dependencies
     ├── setup.py # Package setup
@@ -380,10 +380,7 @@ Accepts --password plus all generate options listed above.
 * 23,895 expanded entries including case mutations, digit suffixes, symbol suffixes, and reversed versions.
     
 ### Sources
-    RockYou breach database analysis
-    NordPass annual most common passwords reports
-    Have I Been Pwned aggregated data
-    SecLists common credentials collection
+    A curated collection of common and predictable passwords — well-known weak passwords, keyboard walks, number patterns, and everyday words (names, sports teams, pop culture, dates, tech brands) that people commonly reuse as passwords. Not extracted from a specific named breach corpus.
     
 ### Categories Covered
 
@@ -590,7 +587,7 @@ If tkinter is not available:
     
     Use this tool only on systems you own or have explicit written permission to test.
     Do not use generated wordlists for unauthorized access to any system.
-    The common password database is sourced from publicly available breach analyses for educational awareness.
+    The common password database is a curated list of predictable/common passwords compiled for educational awareness.
     The author is not responsible for any misuse of this tool.
     Always follow applicable laws and regulations regarding cybersecurity testing in your jurisdiction.
 
