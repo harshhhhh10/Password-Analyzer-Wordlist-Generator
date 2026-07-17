@@ -221,8 +221,8 @@ Output:
                PASSWORD STRENGTH ANALYSIS REPORT
       ============================================================
         Password       : Tr0ub4dor&3_x7!Kq
-        Length          : 18
-        Entropy (bits)  : 118.0
+        Length          : 17
+        Entropy (bits)  : 111.43
         Unique ratio    : 94%
         Charsets used   : lowercase, uppercase, digits, symbols
       
@@ -291,7 +291,7 @@ Output:
     text
     
     [*] Generating wordlist with 5 token(s) and 1 date(s) ...
-    [+] 48,231 candidates written to 'wordlist.txt' in 1.37s
+    [+] 19,562 candidates written to 'wordlist.txt' in 0.03s
 
 ### Analyse + Generate Together
     Bash
