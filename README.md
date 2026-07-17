@@ -252,28 +252,28 @@ Output:
     text
     
     ============================================================
-             PASSWORD STRENGTH ANALYSIS REPORT
+            PASSWORD STRENGTH ANALYSIS REPORT
     ============================================================
-      Password       : Tr0ub4dor&3_x7!Kq
-      Length          : 18
-      Entropy (bits)  : 118.0
-      Unique ratio    : 94%
-      Charsets used   : lowercase, uppercase, digits, symbols
-    
+       Password       : Tr0ub4dor&3_x7!Kq
+       Length          : 17
+       Entropy (bits)  : 111.43
+       Unique ratio    : 94%
+       Charsets used   : lowercase, uppercase, digits, symbols
+
     ------------------------------------------------------------
-      COMMON PASSWORD DATABASE CHECK
-         Database size : 734 base passwords
-         With mutations: 23,895 total entries
-         Status        : NOT found in common password list
-    
+     COMMON PASSWORD DATABASE CHECK
+        Database size : 734 base passwords
+        With mutations: 23,895 total entries
+        Status        : NOT found in common password list
+
     ------------------------------------------------------------
-      Custom Score    : 4/4  Very Strong
-      zxcvbn Score    : 4/4  Very Strong
-      Crack time      : centuries
-    
-      * OVERALL       : 4/4  Very Strong
+     Custom Score    : 4/4  Very Strong
+     zxcvbn Score    : 4/4  Very Strong
+     Crack time      : centuries
+
+    * OVERALL       : 4/4  Very Strong
     ------------------------------------------------------------
-    ============================================================
+    ===========================================================
   
  ### Generate a Wordlist
 
@@ -493,67 +493,12 @@ The exported .txt file contains one word per line. It is directly compatible wit
     ...
     
 ### Screenshots
-### CLI — Password Analysis
-    text
-    
-    $ python main.py cli analyse -p "monkey123"
-    
-    ============================================================
-             PASSWORD STRENGTH ANALYSIS REPORT
-    ============================================================
-      Password       : monkey123
-    
-      COMMON PASSWORD DATABASE CHECK
-      +==================================================+
-      |  WARNING: THIS IS A COMMON PASSWORD!             |
-      +==================================================+
-    
-      * OVERALL       : 0/4  Very Weak
-    ============================================================
-
-### CLI — Wordlist Generation
-    text
-    
-    $ python main.py cli generate --name "John" --pet "Rex" --dob "1995-06-20" -o wordlist.txt
-    
-    [*] Generating wordlist with 2 token(s) and 1 date(s) ...
-    [+] 32,456 candidates written to 'wordlist.txt' in 0.98s
 
 ### GUI — Password Analyser Tab
-    text
-    
-    ┌────────────────────────────────────────────────────┐
-    │  [Password Analyser]  [Wordlist Generator]         │
-    │                                                    │
-    │  Enter Password: [••••••••••••]  [Show] [Analyse]  │
-    │                                                    │
-    │  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░  3/4 Strong          │
-    │                                                    │
-    │  ┌──────────────────────────────────────────┐      │
-    │  │  PASSWORD STRENGTH ANALYSIS REPORT       │      │
-    │  │  Length: 15    Entropy: 89.2 bits        │      │
-    │  │  NOT found in common password list       │      │
-    │  │  Score: 3/4 Strong                       │      │
-    │  └──────────────────────────────────────────┘      │
-    └────────────────────────────────────────────────────┘
-    
+![Password Analyser tab showing strength report for a strong password](screenshots/gui-analyser.png)
+
 ### GUI — Wordlist Generator Tab
-    text
-    
-    ┌────────────────────────────────────────────────────┐
-    │  [Password Analyser]  [Wordlist Generator]         │
-    │                                                    │
-    │  Name(s):      [John Smith, Jane        ]          │
-    │  Pet name(s):  [Fluffy, Rex             ]          │
-    │  DOB:          [1990-03-15              ]          │
-    │  Extra:        [Yankees, pizza          ]          │
-    │                                                    │
-    │  [x] Leetspeak  [x] Years  [x] Combine tokens      │
-    │  Min: [4]  Max: [64]                               │
-    │                                                    │
-    │  [Generate Wordlist]  [Export .txt]                │
-    │  Status: 48,231 candidates generated               │
-    └────────────────────────────────────────────────────┘
+![Wordlist Generator tab showing generated candidates from demo tokens](screenshots/gui-generator.png)
     
 ### Requirements
 
